@@ -1,11 +1,49 @@
 
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ui {
+background-color: rgb(155, 17, 17);
+padding: 0px 100px;;
+border-radius: 75px;
+
+}
+
+#title, .controls {
+    font-size: 36px;
+    text-align: center;
+    color: rgb(187, 160, 9);
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px black;
+}
+
 
 .grid-container {
-    width: 960px;
-    height: 960px;
+    width: 800px;
+    height: 800px;
     display:flex;
     flex-direction: column;
+    border: solid 4px black;
 
+}
+
+.controls {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+   
+    
+}
+
+.es-copy {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: solid 2px grey;
 }
 
 .row {
@@ -15,16 +53,17 @@ background-color: pink;
 min-width: auto;
 min-height: auto;
 flex: auto;
+border-radius: 20px;
 
 
 }
 
 .cell {
-flex: 1;
-background-color:white;
-border: solid 1px black;
+flex: 1 ;
+background-color:rgb(168, 163, 163);
 height:auto;
 width:auto;
+
 
 
 
