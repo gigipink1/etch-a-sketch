@@ -9,11 +9,11 @@ function generateDivs(num = 16) {
         cell.classList.add('cell');
         for (t=0; t < num; t++) {
            row.appendChild(cell.cloneNode(1));
-           console.log("cell made");
+         
         }
 
         
-        console.log('div made')
+      
    }
 
    const hoveredCell = document.querySelectorAll('.cell');
