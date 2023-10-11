@@ -3,12 +3,15 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
+    background-color: #a0a9ad;
+    padding: 10px;
 }
 
 .ui {
     background-color: rgb(155, 17, 17);
     padding: 0px 100px;;
     border-radius: 75px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.603);
 
 }
 
@@ -22,8 +25,8 @@ body {
 
 
 .grid-container {
-    width: 800px;
-    height: 800px;
+    width: 700px;
+    height: 700px;
     display:flex;
     flex-direction: column;
     border: solid 4px black;
@@ -41,7 +44,9 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50px;
+    background-color: #eee;
     border: solid 2px grey;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.445);
 }
 
 .row {
