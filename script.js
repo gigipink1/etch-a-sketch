@@ -16,5 +16,14 @@ function generateDivs(num = 16) {
         console.log('div made')
    }
 }
+generateDivs(64);
 
-generateDivs();
+const hoveredCell = document.querySelectorAll('.cell');
+
+hoveredCell.forEach((cell) => {
+  cell.addEventListener('mouseenter', (cell) => {
+   cell.target.style.backgroundColor = "#453f3d";
+});
+});
+
+
