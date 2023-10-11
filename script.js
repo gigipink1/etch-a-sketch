@@ -8,22 +8,19 @@ function generateDivs(num = 16) {
         row.classList.add('row');
         cell.classList.add('cell');
         for (t=0; t < num; t++) {
-           row.appendChild(cell.cloneNode(1));
-         
+           row.appendChild(cell.cloneNode(1));         
         }
-
-        
-      
    }
 
    const hoveredCell = document.querySelectorAll('.cell');
-
-hoveredCell.forEach((cell) => {
-  cell.addEventListener('mouseenter', (cell) => {
-   cell.target.style.backgroundColor = "#453f3d";
-});
-});
+   
+   hoveredCell.forEach((cell) => {
+      cell.addEventListener('mouseenter', (cell) => {
+      cell.target.style.backgroundColor = "#453f3d";
+      });
+   });
 }
+
 generateDivs();
 
 
