@@ -6,9 +6,9 @@ body {
 }
 
 .ui {
-background-color: rgb(155, 17, 17);
-padding: 0px 100px;;
-border-radius: 75px;
+    background-color: rgb(155, 17, 17);
+    padding: 0px 100px;;
+    border-radius: 75px;
 
 }
 
@@ -27,7 +27,6 @@ border-radius: 75px;
     display:flex;
     flex-direction: column;
     border: solid 4px black;
-
 }
 
 .controls {
@@ -36,7 +35,6 @@ border-radius: 75px;
     align-items: center;
     padding: 24px;
    
-    
 }
 
 .es-copy {
@@ -47,25 +45,18 @@ border-radius: 75px;
 }
 
 .row {
-display:flex;
-flex-wrap: wrap;
-background-color: pink;
-min-width: auto;
-min-height: auto;
-flex: auto;
-border-radius: 20px;
-
+    display:flex;
+    flex-wrap: wrap;
+    min-width: auto;
+    min-height: auto;
+    flex: auto;
+    border-radius: 20px;
 
 }
 
 .cell {
-flex: 1 ;
-background-color:rgb(168, 163, 163);
-height:auto;
-width:auto;
-
-
-
-
-
+    flex: 1 ;
+    background-color:rgb(168, 163, 163);
+    height:auto;
+    width:auto;
 }
