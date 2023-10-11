@@ -15,15 +15,27 @@ function generateDivs(num = 16) {
         
         console.log('div made')
    }
-}
-generateDivs(64);
 
-const hoveredCell = document.querySelectorAll('.cell');
+   const hoveredCell = document.querySelectorAll('.cell');
 
 hoveredCell.forEach((cell) => {
   cell.addEventListener('mouseenter', (cell) => {
    cell.target.style.backgroundColor = "#453f3d";
 });
 });
+}
+generateDivs();
 
 
+const canvasSize = document.querySelector("#canvas");
+
+canvasSize.addEventListener('input', replaceCanvas )
+
+function replaceCanvas() {
+   const gridContainer = document.querySelector('.grid-container')
+   while (gridContainer.firstChild) {
+      gridContainer.firstChild.remove();
+   }
+   generateDivs(canvasSize.value)
+
+}
